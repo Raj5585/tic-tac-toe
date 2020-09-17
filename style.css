@@ -1,0 +1,33 @@
+
+body{
+  text-align: center;
+}
+
+#board{
+
+   border: 2px solid black;
+   border-radius: 10px;
+   box-shadow: 1px 1px 5px 5px;
+   width: 300px;
+   margin: auto;
+}
+h1{
+    text-shadow: 0 0 5px red, 0 0 5px #0000FF;;
+}
+
+.row{
+    display: flex; 
+    margin-bottom: 10px;
+    padding: 5px;
+   justify-content: space-around;
+    
+}
+ button{
+    font-size: 50px;
+    width: 50px;
+}
+button:hover{
+    box-shadow: 3px 3px 8px 8px royalblue;
+}
+
+

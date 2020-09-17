@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>raj.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1>TIc Tac Toe</h1>
+    <div id="board">
+        <div class="row" id="row-1">
+            <button class="button">#</button>
+            <button class="button">#</button>
+            <button class="button">#</button>
+        </div>
+
+        <div class="row" id="row-2" >
+            <button class="button">#</button>
+            <button class="button">#</button>
+            <button class="button">#</button>
+        </div>
+
+        <div class="row" id="row-3">
+            <button class="button">#</button>
+            <button class="button">#</button>
+            <button class="button">#</button>
+        </div>
+    </div> 
+    <div  style="margin-top: 20px;"> 
+        <button onclick="start()"  id="start" type="button" style="width: 150px; border-radius: 20px; background-color: green;">start</button>
+        <button id="end" type="button" style="width: 150px; border-radius: 20px; background-color: red;">end</button>
+    </div>
+    <h1><span id="winner" > </span></h1>
+    <script src="app.js"></script>
+</body>
+</html>
